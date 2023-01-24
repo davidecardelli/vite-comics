@@ -5,6 +5,7 @@ import AppFooter from './components/AppFooter.vue'
 
 
 export default {
+    name: 'Dc Comics',
     data() {
         return {
 
