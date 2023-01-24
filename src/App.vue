@@ -69,6 +69,10 @@ ul {
     justify-content: center;
 }
 
+.space-between {
+    justify-content: space-between
+}
+
 .h-100 {
     height: 100%;
 }
