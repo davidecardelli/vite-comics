@@ -10,7 +10,6 @@ export default {
         <div class="container main-content">
             <h2> Content 1 </h2>
             <h2> Content 2 </h2>
-            <h2> Content 3 </h2>
         </div>
     </main>
 
@@ -18,7 +17,7 @@ export default {
 
 <style scoped>
 main {
-    background-color: darkgray;
+    background-color: black;
 }
 
 .main-content {
@@ -31,5 +30,6 @@ main {
 h2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    color: white;
 }
 </style>
