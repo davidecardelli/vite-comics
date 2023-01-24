@@ -57,4 +57,20 @@ ul {
     margin: 0 auto;
     max-width: 1140px;
 }
+
+/* Utils */
+.d-flex {
+    display: flex;
+}
+
+.d-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-100 {
+    height: 100%;
+}
 </style>
+
