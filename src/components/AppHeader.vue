@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <header>
+    <header class="container">
         <figure>
             <a href="#"><img src="../assets/img/dc-logo.png" alt="DC Comics"></a>
         </figure>

@@ -20,11 +20,9 @@ export default {
 </script>
 
 <template>
-    <div class="container">
-        <app-header></app-header>
-        <app-main></app-main>
-        <app-footer></app-footer>
-    </div>
+    <app-header></app-header>
+    <app-main></app-main>
+    <app-footer></app-footer>
 </template>
 
 <style>
