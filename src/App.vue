@@ -28,5 +28,35 @@ export default {
 </template>
 
 <style>
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Generics */
+body {
+    /* font-family: ; */
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Container */
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+}
 </style>
