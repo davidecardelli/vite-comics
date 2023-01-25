@@ -77,7 +77,7 @@ export default {
 
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 header {
     height: 150px;
     display: flex;
