@@ -87,6 +87,8 @@ export default {
 <style scoped>
 footer {
     background-image: url('../assets/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar {
@@ -102,7 +104,7 @@ footer {
 
 .btn {
     padding: 10px 20px;
-    border: 2px blue solid;
+    border: 2px #0282f9 solid;
     color: white;
 }
 
@@ -112,7 +114,7 @@ footer {
 }
 
 h3 {
-    color: blue;
+    color: #0282f9;
 }
 
 h4 {
