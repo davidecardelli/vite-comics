@@ -69,7 +69,9 @@ export default {
         </figure>
         <nav>
             <ul>
-                <li v-for="link in links"><a :href="link.url">{{ link.text }}</a></li>
+                <li v-for="link in links">
+                    <a :class="{ 'selected': link.current }" :href="link.url">{{ link.text }}</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -89,9 +91,13 @@ header {
         gap: 20px;
 
         a {
-            color: black;
             text-transform: uppercase;
         }
     }
+}
+
+.selected {
+    color: #0282f9;
+    border-bottom: 2px solid #0282f9;
 }
 </style>
