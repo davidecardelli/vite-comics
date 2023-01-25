@@ -69,7 +69,7 @@ export default {
         </figure>
         <nav>
             <ul>
-                <li v-for="link in links">
+                <li v-for="link in links" :key="link.text">
                     <a :class="{ 'selected': link.current }" :href="link.url">{{ link.text }}</a>
                 </li>
             </ul>
