@@ -89,13 +89,15 @@ footer {
     background-image: url('../assets/img/footer-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
+    .navbar {
+        display: flex;
+        padding: 4rem 0;
+        gap: 20px;
+    }
 }
 
-.navbar {
-    display: flex;
-    padding: 4rem 0;
-    gap: 20px;
-}
+
 
 .social {
     background-color: #313131;

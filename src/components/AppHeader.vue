@@ -83,15 +83,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
 
-ul {
-    display: flex;
-    gap: 20px;
-}
+    ul {
+        display: flex;
+        gap: 20px;
 
-a {
-    color: black;
-    text-transform: uppercase;
+        a {
+            color: black;
+            text-transform: uppercase;
+        }
+    }
 }
 </style>

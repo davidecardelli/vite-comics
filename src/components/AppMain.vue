@@ -18,18 +18,18 @@ export default {
 <style lang="scss" scoped>
 main {
     background-color: black;
-}
 
-.main-content {
-    min-height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+    .main-content {
+        min-height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
-h2 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    color: white;
+        h2 {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+    }
 }
 </style>
