@@ -103,8 +103,8 @@ export default {
 <template>
 
     <main>
-        <div class="container main-content">
-            <app-card v-for="card in cards" :key="card.thumb"></app-card>
+        <div class="container main-content d-flex">
+            <app-card v-for="card in cards" :key="card.thumb" :img="card.thumb" :title="card.series"></app-card>
         </div>
     </main>
 
@@ -115,10 +115,9 @@ main {
     background-color: black;
 
     .main-content {
-        min-height: 150px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-wrap: wrap;
+        padding: 4rem 0;
     }
 }
 </style>
